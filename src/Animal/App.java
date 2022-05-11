@@ -17,7 +17,7 @@ public class App implements ScannerFactory{
             System.out.println("Is it a dog? Yes or no:");
             String dogOrNot = scan.nextLine();
             if (dogOrNot.isEmpty()) break;
-            animals.add(new Animal(name, dogOrNot.equalsIgnoreCase("yes") ? true : false));
+            animals.add(new Animal(name, dogOrNot.equalsIgnoreCase("yes")));
 
         }
 

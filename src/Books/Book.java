@@ -10,6 +10,29 @@ public class Book {
         this.pages = pages;
         this.year = year;
     }
+    public Book(String title) {
+        this.title = title;
+        this.pages = 100;
+        this.year = 2022;
+    }
+
+    public Book(String title, int pages) {
+        this.title = title;
+        this.pages = pages;
+        this.year = 2022;
+    }
+
+    public Book(int pages) {
+        this.title = "No title";
+        this.pages = pages;
+        this.year = 2022;
+    }
+
+    public Book(int years, int pages) {
+        this.title = "No title";
+        this.pages = pages;
+        this.year = years;
+    }
 
     public String getTitle() {
         return title;
